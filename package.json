@@ -1,0 +1,32 @@
+{
+  "name": "n8-configuration",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "prepublish": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:check": "tsc --noEmit"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "@nestjs/typeorm": "^7.1.5",
+    "@types/node": "^10.17.56",
+    "dotenv": "^8.2.0",
+    "typeorm": "^0.2.31"
+  }
+}
