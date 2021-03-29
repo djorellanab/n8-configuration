@@ -7,6 +7,9 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "url": ""
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -17,7 +20,7 @@
     "build": "tsc",
     "build:check": "tsc --noEmit"
   },
-  "author": "",
+  "author": "djob195",
   "license": "ISC",
   "devDependencies": {
     "tslint": "^5.12.1",
